@@ -7,14 +7,13 @@ function prastara(string) {
 	let mapper = (token, index, tokens) => {
 		let value = '';
 		let current_akshara = token['akshara'];
-		if (index + 1 < tokens.length && (tokens[index + 1]['samyukta'] || tokens[index + 1]['virama'])) {
+		if (token['virama']) {
+			
+		}
+		else if (index + 1 < tokens.length && (tokens[index + 1]['samyukta'] || tokens[index + 1]['virama'])) {
 			value = '—';
 			if (tokens[index + 1]['virama'])
 				current_akshara += tokens[index + 1]['akshara'];
-		}
-		else if (token['virama']) {
-			value = '';
-			current_akshara = '';
 		}
 		else if (token['yogawaha'])
 			value = '—';

@@ -18,6 +18,8 @@
         crossorigin="anonymous"></script>
     <script type="module">
         import { prastara } from "./prastara.js"
+        import { AksharaGanaIdentifier } from './aksharagana.js';
+        let aksharaGanaIdentifier = new AksharaGanaIdentifier("data/aksharagana_data.json");
         $(() => {
             $('#submit').click(e => {
 
@@ -28,22 +30,40 @@
                     </svg>
                 `);
                 let input_text = $('#source').val();
+                let analysis_type = $('#analysisType').val();
                 $("#output tr").remove();
-                input_text.split('\n').map(prastara).forEach(prastara_obj => {
+                let prastara_lines = input_text.split('\n').map(prastara);
+                prastara_lines.forEach(prastara_obj => {
                     let prastara_row = $("<tr>");
                     let akshara_row = $("<tr>");
-                    prastara_obj.prastara.forEach(x=>prastara_row.append(
+                    prastara_obj.prastara.forEach(x => prastara_row.append(
                         $("<td>").html(`<code> ${x} </code>`)
                     ));
-                    prastara_obj.akshara.forEach(x=>akshara_row.append(
-                        $("<td>").attr({"class":"table-active"}).html(`${x}`)
+                    prastara_obj.akshara.forEach(x => akshara_row.append(
+                        $("<td>").attr({ "class": "table-active" }).html(`${x}`)
                     ));
                     prastara_row.appendTo("#output");
                     akshara_row.appendTo("#output");
                 });
+                let chandas_analyzer = null;
+                switch (analysis_type) {
+                    case "akshara_gana": chandas_analyzer = aksharaGanaIdentifier;
+                    case "matra_chanda": ;
+                    case "matra_gana":  ;
+                    case "amsha_gana": ;
+                }
+                let pattern = prastara_lines[0].prastara.map(x => x == 'U' ? 0 : 1).join('');
+                let result = '';
+                try {
+                    result = JSON.stringify(chandas_analyzer.identify(pattern));
+                }
+                catch (TypeError) {
+                    result = 'Still not implemented analysis for ' + analysis_type;
+                }
+                $('#analysis_result').html(result);
                 $('#submit').html(oldHtml);
             });
-            $.getJSON("examples.json", data => {
+            $.getJSON("data/examples.json", data => {
                 data.forEach(example => {
                     $("<tr>").append(
                         $("<td>").html(example['verse'].replace(/\n/g, "<br/>")),
@@ -114,6 +134,19 @@
                     </h4>
                 </div>
             </div>
+            <div class="d-flex justify-content-center text-center">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <select id="analysisType" class="form-control" placeholder="">
+                            <option value="" disabled>Select analysis type</option>
+                            <option value="akshara_gana" selected>Akṣara gaṇa</option>
+                            <option value="matra_chanda">Mātrā chaṃda</option>
+                            <option value="matra_gana">Mātrā gaṇa</option>
+                            <option value="amsha_gana">Aṃśa gaṇa</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     <div class="container container-fluid">
@@ -147,10 +180,21 @@
                     <div class="table-responsive">
                         <table id="output" class="table table-borderless table-sm"></table>
                     </div>
-                    
+
                 </div>
             </div>
-        </form>
+            <div class="form-row">
+
+                Result
+                <div class="col-">
+                    
+                    <code class="" id="analysis_result">
+
+                </code>
+                </div>
+            </div>
+    </div>
+    </form>
     </div>
     <hr class="my-4">
     <div class="container container-fluid">
@@ -169,8 +213,8 @@
     </div>
     <footer id="sticky-footer" class="py-4 bg-dark">
         <div class="container text-center">
-            <small class="text-white-50">This <a href="https://github.com/vinayakakv/prastara"
-                    target="_blank">open source</a>
+            <small class="text-white-50">This <a href="https://github.com/vinayakakv/prastara" target="_blank">open
+                    source</a>
                 project was developed during a lockdown to contain <a
                     href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019" target="_blank">COVID 19</a> outbreak
                 in </small> 🇮🇳.

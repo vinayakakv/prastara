@@ -1,0 +1,1478 @@
+[
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 1,
+    "parent_chandas": "ಉಕ್ತೆ",
+    "child_chandas": "ಶ್ರೀವೃತ್ತಂ",
+    "pattern": "ಗಂ",
+    "yati": "",
+    "chandombudi_source": 72
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 2,
+    "parent_chandas": "ಅತ್ಯುಕ್ತೆ",
+    "child_chandas": "ಗೇಯವೃತ್ತಂ",
+    "pattern": "ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 73
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 2,
+    "parent_chandas": "ಅತ್ಯುಕ್ತೆ",
+    "child_chandas": "ದಿಗಂತವೃತ್ತಂ",
+    "pattern": "ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 74
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 3,
+    "parent_chandas": "ಮಧ್ಯಮೆ",
+    "child_chandas": "ಪ್ರವರಂ",
+    "pattern": "ಸಂ",
+    "yati": "",
+    "chandombudi_source": 75
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 3,
+    "parent_chandas": "ಮಧ್ಯಮೆ",
+    "child_chandas": "ಶ್ಯಾಮಾಂಗಂ",
+    "pattern": "ಮಂ",
+    "yati": "",
+    "chandombudi_source": 76
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 3,
+    "parent_chandas": "ಮಧ್ಯಮೆ",
+    "child_chandas": "ಪಾವನಂ",
+    "pattern": "ರಂ",
+    "yati": "",
+    "chandombudi_source": 77
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 3,
+    "parent_chandas": "ಮಧ್ಯಮೆ",
+    "child_chandas": "ಪರಮೆ",
+    "pattern": "ನಂ",
+    "yati": "",
+    "chandombudi_source": 78
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 4,
+    "parent_chandas": "ಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ದೇವರಮ್ಯಂ",
+    "pattern": "ರ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 79
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 4,
+    "parent_chandas": "ಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಸೌಂದರಂ",
+    "pattern": "ಭ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 80
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 4,
+    "parent_chandas": "ಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಜನೋದಯಂ",
+    "pattern": "ಜ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 81
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 4,
+    "parent_chandas": "ಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಮೃಗನೇತ್ರಂ",
+    "pattern": "ಸ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 82
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 4,
+    "parent_chandas": "ಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಸುರತರು",
+    "pattern": "ನ|ಲಂ",
+    "yati": "",
+    "chandombudi_source": 83
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 4,
+    "parent_chandas": "ಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಕಾಮೋದ್ಭವಂ",
+    "pattern": "ತ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 84
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 4,
+    "parent_chandas": "ಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಪ್ರೇಮಂ",
+    "pattern": "ಮ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 85
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 5,
+    "parent_chandas": "ಸುಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ನಂದಕಂ",
+    "pattern": "ರ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 86
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 5,
+    "parent_chandas": "ಸುಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಕಾಂಚನಮಾಲೆ",
+    "pattern": "ಭ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 87
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 5,
+    "parent_chandas": "ಸುಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ತಿಲಕಂ",
+    "pattern": "ತ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 88
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 5,
+    "parent_chandas": "ಸುಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ನಂದಂ",
+    "pattern": "ಜ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 89
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 5,
+    "parent_chandas": "ಸುಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಸರಸಿರುಹಂ",
+    "pattern": "ನ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 90
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 5,
+    "parent_chandas": "ಸುಪ್ರತಿಷ್ಠೆ",
+    "child_chandas": "ಪ್ರೇಮಂ",
+    "pattern": "ಭ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 91
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 6,
+    "parent_chandas": "ಗಾಯತ್ರಿ",
+    "child_chandas": "ಶಾಲಿನಿ",
+    "pattern": "ರ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 92
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 6,
+    "parent_chandas": "ಗಾಯತ್ರಿ",
+    "child_chandas": "ಉದಾತ್ತಂ",
+    "pattern": "ನ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 93
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 6,
+    "parent_chandas": "ಗಾಯತ್ರಿ",
+    "child_chandas": "ಶಶಿಕಾಂತಂ",
+    "pattern": "ಭ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 94
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 6,
+    "parent_chandas": "ಗಾಯತ್ರಿ",
+    "child_chandas": "ವಿಚಿತ್ರಂ",
+    "pattern": "ಯ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 95
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 6,
+    "parent_chandas": "ಗಾಯತ್ರಿ",
+    "child_chandas": "ತನುಮಧ್ಯೆ (ತಿಲಕಂ)",
+    "pattern": "ತ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 96
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 6,
+    "parent_chandas": "ಗಾಯತ್ರಿ",
+    "child_chandas": "ಕುಮುದಂ (ಮುಕುಳಂ, ಮುಕುರಂ)",
+    "pattern": "ಸ|ಸಂ",
+    "yati": "",
+    "chandombudi_source": 97
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 6,
+    "parent_chandas": "ಗಾಯತ್ರಿ",
+    "child_chandas": "ಮುಕುಳಂ‌(ಕುಮುದಂ)",
+    "pattern": "ಮ|ಸಂ",
+    "yati": "",
+    "chandombudi_source": 98
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 6,
+    "parent_chandas": "ಗಾಯತ್ರಿ",
+    "child_chandas": "ಸುಲಲಿತಂ",
+    "pattern": "ನ|ಮಂ",
+    "yati": "",
+    "chandombudi_source": 99
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ಸದಮಲಂ (ಚಿತ್ರಂ, ವಿಚಿತ್ರಂ)",
+    "pattern": "ನ|ಸ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 100
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ಅಮಳಂ (ಕಮಲಂ)",
+    "pattern": "ಭ|ಭ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 101
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ವಿರಾಮಂ",
+    "pattern": "ಭ|ರ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 102
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ಚಿತ್ರಂ",
+    "pattern": "ಮ|ಭ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 103
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ವಿಭೂತಿ",
+    "pattern": "ರ|ಜ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 104
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ಸರಳಂ",
+    "pattern": "ಸ|ರ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 105
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ಕೋಮಳಂ",
+    "pattern": "ಸ|ತ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 106
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ನರಗಂ",
+    "pattern": "ನ|ರ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 107
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ಸುಲಭಂ‌(ಮಧುಮತಿ)",
+    "pattern": "ನ|ನ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 108
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ಸುನಾಮಂ",
+    "pattern": "ರ|ಜ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 109
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 7,
+    "parent_chandas": "ಉಷ್ಣಿಕ್",
+    "child_chandas": "ಹಂಸಮಾಲೆ",
+    "pattern": "ರ|ರ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 110
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 8,
+    "parent_chandas": "ಅನುಷ್ಟುಪ್",
+    "child_chandas": "ವಿದ್ಯುನ್ಮಾಲೆ",
+    "pattern": "ಮ|ಮ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 111
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 8,
+    "parent_chandas": "ಅನುಷ್ಟುಪ್",
+    "child_chandas": "ಚಿತ್ರಪದಂ",
+    "pattern": "ಭ|ಭ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 112
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 8,
+    "parent_chandas": "ಅನುಷ್ಟುಪ್",
+    "child_chandas": "ಮಾಣವಕಂ",
+    "pattern": "ಭ|ತ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 113
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 8,
+    "parent_chandas": "ಅನುಷ್ಟುಪ್",
+    "child_chandas": "ಚಿರಂಪ್ರಮಾಣಿಕಂ (ಪ್ರಮಾಣಿಕಂ)",
+    "pattern": "ಜ|ರ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 114
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 8,
+    "parent_chandas": "ಅನುಷ್ಟುಪ್",
+    "child_chandas": "ಶೃತಾನಂದಂ (ಶೃತಾನಂತಂ, ಶುಭಾನಂತಂ)",
+    "pattern": "ರ|ರ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 115
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 8,
+    "parent_chandas": "ಅನುಷ್ಟುಪ್",
+    "child_chandas": "ಸುಮಾಲತಿ",
+    "pattern": "ನ|ರ|ಲ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 116
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ಉತ್ಸುಕಂ",
+    "pattern": "ಭ|ಭ|ರಂ",
+    "yati": "",
+    "chandombudi_source": 117
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ಹಲಮುಖಿ",
+    "pattern": "ರ|ನ|ಸಂ",
+    "yati": "",
+    "chandombudi_source": 118
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ಉದಯಂ",
+    "pattern": "ಭ|ಜ|ಸಂ",
+    "yati": "",
+    "chandombudi_source": 119
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ಭದ್ರಕಂ",
+    "pattern": "ಜ|ನ|ಜಂ",
+    "yati": "",
+    "chandombudi_source": 120
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ವನಜಂ",
+    "pattern": "ರ|ಸ|ಸಂ",
+    "yati": "",
+    "chandombudi_source": 121
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ಭುಜಗಶಿಶುಸೃತಂ",
+    "pattern": "ನ|ನ|ಮಂ",
+    "yati": "",
+    "chandombudi_source": 122
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ವಿನುತಂ",
+    "pattern": "ನ|ನ|ರಂ",
+    "yati": "",
+    "chandombudi_source": 123
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ಮಯೂರಂ",
+    "pattern": "ನ|ಸ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 124
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 9,
+    "parent_chandas": "ಬೃಹತಿ",
+    "child_chandas": "ಬೃಹತಿ",
+    "pattern": "ಯ|ಯ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 125
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 10,
+    "parent_chandas": "ಪಂಕ್ತಿ",
+    "child_chandas": "ಪಣವಕಂ",
+    "pattern": "ಮ|ನ|ಯ|ಗಂ",
+    "yati": 7,
+    "chandombudi_source": 126
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 10,
+    "parent_chandas": "ಪಂಕ್ತಿ",
+    "child_chandas": "ಮಂದಾನಿಲಂ",
+    "pattern": "ಭ|ಮ|ಸ|ಗಂ",
+    "yati": 10,
+    "chandombudi_source": 127
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 10,
+    "parent_chandas": "ಪಂಕ್ತಿ",
+    "child_chandas": "ಮತ್ತಂ",
+    "pattern": "ಮ|ಭ|ಸ|ಗಂ",
+    "yati": "4, 8",
+    "chandombudi_source": 128
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 10,
+    "parent_chandas": "ಪಂಕ್ತಿ",
+    "child_chandas": "ಚಿತ್ರಪದಂ",
+    "pattern": "ಭ|ಭ|ಭ|ಗಂ",
+    "yati": 9,
+    "chandombudi_source": 129
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 10,
+    "parent_chandas": "ಪಂಕ್ತಿ",
+    "child_chandas": "ಮಣಿರಂಗಂ",
+    "pattern": "ರ|ಸ|ಸ|ಗಂ",
+    "yati": "5, 10",
+    "chandombudi_source": 130
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 10,
+    "parent_chandas": "ಪಂಕ್ತಿ",
+    "child_chandas": "ಕಲ್ಯಾಣಂ",
+    "pattern": "ಮ|ಸ|ಜ|ಗಂ",
+    "yati": "5,10",
+    "chandombudi_source": 131
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಇಂದ್ರವಜ್ರಂ",
+    "pattern": "ತ|ತ|ಜ|ಗಗಂ",
+    "yati": 8,
+    "chandombudi_source": 132
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಉಪೇಂದ್ರವಜ್ರಂ",
+    "pattern": "ಜ|ತ|ಜ|ಗಗಂ",
+    "yati": 8,
+    "chandombudi_source": 133
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಸೈನಿಕಂ",
+    "pattern": "ರ|ಜ|ರ|ಲಗಂ",
+    "yati": "5,10",
+    "chandombudi_source": 134
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ದೋಧಕಂ",
+    "pattern": "ಭ|ಭ|ಭ|ಗಗಂ",
+    "yati": 11,
+    "chandombudi_source": 135
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ರಥೋದ್ಧತೆ",
+    "pattern": "ರ|ನ|ರ|ಲಗಂ",
+    "yati": 6,
+    "chandombudi_source": 136
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಚಂದ್ರಿಕೆ",
+    "pattern": "ನ|ನ|ರ|ಲಗಂ",
+    "yati": 8,
+    "chandombudi_source": 137
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಭ್ರಮರವಿಲಸಿತಂ",
+    "pattern": "ಮ|ಭ|ನ|ಲಗಂ",
+    "yati": "4, 8",
+    "chandombudi_source": 138
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಸ್ವಾಗತಂ",
+    "pattern": "ರ|ನ|ಭ|ಗಗಂ",
+    "yati": 8,
+    "chandombudi_source": 139
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಶಾಲಿನಿ",
+    "pattern": "ಮ|ತ|ತ|ಗಗಂ",
+    "yati": 7,
+    "chandombudi_source": 140
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಮಾಣಿಕ್ಯಂ",
+    "pattern": "ಮ|ಸ|ಜ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 141
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಸಾಂದ್ರಪದಂ",
+    "pattern": "ಭ|ತ|ನ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 142
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಲಯಗ್ರಾಹಿ",
+    "pattern": "ತ|ತ|ತ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 143
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಸುಮುಖಿ",
+    "pattern": "ನ|ಜ|ಜ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 144
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ನೀತಿಕೆ",
+    "pattern": "ನ|ರ|ರ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 145
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 11,
+    "parent_chandas": "ತಿಷ್ಟುಪ್",
+    "child_chandas": "ಶ್ರೀ",
+    "pattern": "ಭ|ತ|ನ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 146
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ದ್ರುತಪೂರ್ವವಿಲಂಬಿತಂ",
+    "pattern": "ನ|ಭ|ಭ|ರಂ",
+    "yati": 9,
+    "chandombudi_source": 147
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ತೋಟಕಂ",
+    "pattern": "ಸ|ಸ|ಸ|ಸಂ",
+    "yati": 12,
+    "chandombudi_source": 148
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಭುಜಂಗಪ್ರಯಾತಂ",
+    "pattern": "ಯ|ಯ|ಯ|ಯಂ",
+    "yati": 8,
+    "chandombudi_source": 149
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ವಂಶಸ್ಥಂ",
+    "pattern": "ಜ|ತ|ಜ|ರಂ",
+    "yati": 7,
+    "chandombudi_source": 150
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಇಂದ್ರವಂಶಂ",
+    "pattern": "ತ|ತ|ಜ|ರಂ",
+    "yati": 8,
+    "chandombudi_source": 151
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಸ್ರಗ್ವಿಣಿ",
+    "pattern": "ರ|ರ|ರ|ರಂ",
+    "yati": "",
+    "chandombudi_source": 152
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ನಿರುಪಮಂ",
+    "pattern": "ನ|ಭ|ಜ|ರಂ",
+    "yati": 7,
+    "chandombudi_source": 153
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ದ್ರುತಪದಂ",
+    "pattern": "ನ|ಭ|ಜ|ಯಂ",
+    "yati": 7,
+    "chandombudi_source": 154
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಲಲಿತಪದಂ",
+    "pattern": "ನ|ಜ|ಜ|ಯಂ",
+    "yati": 7,
+    "chandombudi_source": 155
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಚಂದ್ರಿಕೆ (ಚಂದ್ರಿ)",
+    "pattern": "ರ|ನ|ಭ|ಸಂ",
+    "yati": 6,
+    "chandombudi_source": 156
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಹಂಸಮತ್ತಂ",
+    "pattern": "ಭ|ಭ|ರ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 157
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಪ್ರವರಾಕ್ಷರಂ‌‌ (ಪ್ರವಿತಾಕ್ಷರಂ)",
+    "pattern": "ಸ|ಜ|ಸ|ಸಂ",
+    "yati": 6,
+    "chandombudi_source": 158
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಪುಟಂ (ಫುಟಂ)",
+    "pattern": "ನ|ನ|ಮ|ಯಂ",
+    "yati": 7,
+    "chandombudi_source": 159
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಜಲೋದ್ಧತೆ (ಜಲೋದ್ಧತ)",
+    "pattern": "ಜ|ಸ|ಜ|ಸಂ",
+    "yati": "",
+    "chandombudi_source": 160
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ವೈಶ್ವದೇವಂ (ವೈಶ್ವದೇವಿ)",
+    "pattern": "ಮ|ಮ|ಯ|ಯಂ",
+    "yati": 5,
+    "chandombudi_source": 161
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 12,
+    "parent_chandas": "ಜಗತಿ",
+    "child_chandas": "ಕುಸುಮವಿಚಿತ್ರಂ",
+    "pattern": "ನ|ಯ|ನ|ಯಂ",
+    "yati": "",
+    "chandombudi_source": 162
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 13,
+    "parent_chandas": "ಅತಿಜಗತಿ",
+    "child_chandas": "ರುಚಿರಂ",
+    "pattern": "ಜ|ಭ|ಸ|ಜ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 163
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 13,
+    "parent_chandas": "ಅತಿಜಗತಿ",
+    "child_chandas": "ಅಚ್ಯುತಂ",
+    "pattern": "ನ|ಭ|ಭ|ಭ|ಗಂ",
+    "yati": "4/5",
+    "chandombudi_source": 164
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 13,
+    "parent_chandas": "ಅತಿಜಗತಿ",
+    "child_chandas": "ಪ್ರಭಾತಂ",
+    "pattern": "ನ|ಜ|ಜ|ರ|ಗಂ",
+    "yati": 8,
+    "chandombudi_source": 165
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 13,
+    "parent_chandas": "ಅತಿಜಗತಿ",
+    "child_chandas": "ಕೊಮಲರುಚಿರಂ",
+    "pattern": "ಭ|ಭ|ಭ|ಭ|ಗಂ",
+    "yati": 9,
+    "chandombudi_source": 166
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 13,
+    "parent_chandas": "ಅತಿಜಗತಿ",
+    "child_chandas": "ಸೌಂದರಿ",
+    "pattern": "ಭ|ತ|ಜ|ಭ|ಗಂ",
+    "yati": 7,
+    "chandombudi_source": 167
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 13,
+    "parent_chandas": "ಅತಿಜಗತಿ",
+    "child_chandas": "ಅಂಬುಜಂ",
+    "pattern": "ಭ|ಜ|ಸ|ಸ|ಗಂ",
+    "yati": 5,
+    "chandombudi_source": 168
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 13,
+    "parent_chandas": "ಅತಿಜಗತಿ",
+    "child_chandas": "ಮಂಜುಭೂಷಿಣಿ",
+    "pattern": "ಸ|ಜ|ಸ|ಜ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 169
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 13,
+    "parent_chandas": "ಅತಿಜಗತಿ",
+    "child_chandas": "ಮತ್ತಮಯೂರಂ",
+    "pattern": "ಮ|ತ|ಯ|ಸ|ಗಂ",
+    "yati": 9,
+    "chandombudi_source": 170
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 14,
+    "parent_chandas": "ಶಕ್ವರಿ",
+    "child_chandas": "ವಸಂತತಿಲಕಂ",
+    "pattern": "ತ|ಭ|ಜ|ಜ|ಗಗಂ",
+    "yati": 14,
+    "chandombudi_source": 171
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 14,
+    "parent_chandas": "ಶಕ್ವರಿ",
+    "child_chandas": "ಪ್ರಹರಣಕಲಿತಂ",
+    "pattern": "ನ|ನ|ಭ|ನ|ಲಗಂ",
+    "yati": 7,
+    "chandombudi_source": 172
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 14,
+    "parent_chandas": "ಶಕ್ವರಿ",
+    "child_chandas": "ಕುಸುಮಾಂಘ್ರಿಪಂ",
+    "pattern": "ನ|ಭ|ರ|ಸ|ಲಗಂ",
+    "yati": 9,
+    "chandombudi_source": 173
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 14,
+    "parent_chandas": "ಶಕ್ವರಿ",
+    "child_chandas": "ವನಮಯೂರಂ",
+    "pattern": "ಭ|ಜ|ಸ|ನ|ಗಗಂ",
+    "yati": 14,
+    "chandombudi_source": 174
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 14,
+    "parent_chandas": "ಶಕ್ವರಿ",
+    "child_chandas": "ಕುಟ್ಮಲಮೆಂಬ ವನಮಯೂರಂ",
+    "pattern": "ಭ|ಜ|ಸ|ನ|ಗಗಂ",
+    "yati": "5/4",
+    "chandombudi_source": 175
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 14,
+    "parent_chandas": "ಶಕ್ವರಿ",
+    "child_chandas": "ಸೌಂದರಂ",
+    "pattern": "ಭ|ಭ|ರ|ಸ|ಲಗಂ",
+    "yati": "ಅಗೇಂದ್ರ (8?)",
+    "chandombudi_source": 176
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 15,
+    "parent_chandas": "ಅತಿಶಕ್ವರಿ",
+    "child_chandas": "ಮಾಲಿನಿ",
+    "pattern": "ನ|ನ|ಮ|ಯ|ಯಂ",
+    "yati": 8,
+    "chandombudi_source": 177
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 15,
+    "parent_chandas": "ಅತಿಶಕ್ವರಿ",
+    "child_chandas": "ಮಣಿಗಣನಿಕರಂ",
+    "pattern": "ನ|ನ|ನ|ನ|ಸಂ",
+    "yati": 8,
+    "chandombudi_source": 178
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 15,
+    "parent_chandas": "ಅತಿಶಕ್ವರಿ",
+    "child_chandas": "ವಿಚಿತ್ರಲಲಿತಂ",
+    "pattern": "ನ|ಸ|ನ|ಭ|ಯಂ",
+    "yati": 11,
+    "chandombudi_source": 179
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 15,
+    "parent_chandas": "ಅತಿಶಕ್ವರಿ",
+    "child_chandas": "ಮಣಿವಿಭೂಷಣಂ",
+    "pattern": "ರ|ನ|ಭ|ಭ|ರ",
+    "yati": 15,
+    "chandombudi_source": 180
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 15,
+    "parent_chandas": "ಅತಿಶಕ್ವರಿ",
+    "child_chandas": "ಸುರಂಗಕೇಸರಂ",
+    "pattern": "ನ|ಜ|ಭ|ಜ|ರ",
+    "yati": 15,
+    "chandombudi_source": 181
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 15,
+    "parent_chandas": "ಅತಿಶಕ್ವರಿ",
+    "child_chandas": "ನವನಳಿನಂ",
+    "pattern": "ನ|ಜ|ಜ|ಭ|ರ",
+    "yati": 10,
+    "chandombudi_source": 182
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 16,
+    "parent_chandas": "ಅಷ್ಟಿ",
+    "child_chandas": "ಲಲಿತಪದಂ",
+    "pattern": "ನ|ನ|ನ|ಜ|ಸ|ಗಂ",
+    "yati": 10,
+    "chandombudi_source": 183
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 16,
+    "parent_chandas": "ಅಷ್ಟಿ",
+    "child_chandas": "ಜಗದ್ವಂದಿತಂ",
+    "pattern": "ಭ|ಭ|ಭ|ಭ|ಭ|ಗಂ",
+    "yati": 12,
+    "chandombudi_source": 184
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 16,
+    "parent_chandas": "ಅಷ್ಟಿ",
+    "child_chandas": "ಮಂಗಳಂ",
+    "pattern": "ನ|ಭ|ಜ|ಜ|ಜ|ಗಂ",
+    "yati": 8,
+    "chandombudi_source": 185
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 16,
+    "parent_chandas": "ಅಷ್ಟಿ",
+    "child_chandas": "ವಿಜಯಾನಂದಂ",
+    "pattern": "ಯ|ಮ|ನ|ಸ|ರ|ಗಂ",
+    "yati": 12,
+    "chandombudi_source": 186
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 16,
+    "parent_chandas": "ಅಷ್ಟಿ",
+    "child_chandas": "ಪಂಚಚಾಮರಂ",
+    "pattern": "ಜ|ರ|ಜ|ರ|ಜ|ಗಂ",
+    "yati": "",
+    "chandombudi_source": 187
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 17,
+    "parent_chandas": "ಅತ್ಯಷ್ಟಿ",
+    "child_chandas": "ಮಂದಾಕ್ರಾಂತಂ",
+    "pattern": "ಮ|ಭ|ನ|ತ|ತ|ಗಗಂ",
+    "yati": 10,
+    "chandombudi_source": 188
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 17,
+    "parent_chandas": "ಅತ್ಯಷ್ಟಿ",
+    "child_chandas": "ಪೃಥ್ವಿ",
+    "pattern": "ಜ|ಸ|ಜ|ಸ|ಯ|ಲಗಂ",
+    "yati": 8,
+    "chandombudi_source": 189
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 17,
+    "parent_chandas": "ಅತ್ಯಷ್ಟಿ",
+    "child_chandas": "ಶಿಖರಿಣಿ",
+    "pattern": "ಯ|ಮ|ನ|ಸ|ಭ|ಲಗಂ",
+    "yati": 6,
+    "chandombudi_source": 190
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 17,
+    "parent_chandas": "ಅತ್ಯಷ್ಟಿ",
+    "child_chandas": "ಹರಿಣೀಪ್ಲುತಂ",
+    "pattern": "ನ|ಸ|ಮ|ರ|ಸ|ಲಗಂ",
+    "yati": 6,
+    "chandombudi_source": 191
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 17,
+    "parent_chandas": "ಅತ್ಯಷ್ಟಿ",
+    "child_chandas": "ವನಜದಳಂ",
+    "pattern": "ನ|ನ|ನ|ನ|ನ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 192
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 17,
+    "parent_chandas": "ಅತ್ಯಷ್ಟಿ",
+    "child_chandas": "ಕನಕಾಬ್ಜನೀಯಂ",
+    "pattern": "ನ|ಜ|ಭ|ಜ|ಜ|ಲಗಂ",
+    "yati": "",
+    "chandombudi_source": 193
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 18,
+    "parent_chandas": "ಧೃತಿ",
+    "child_chandas": "ಮಲ್ಲಿಕಾಮಾಲೆ",
+    "pattern": "ರ|ಸ|ಜ|ಜ|ಭ|ರ",
+    "yati": 8,
+    "chandombudi_source": 194
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 18,
+    "parent_chandas": "ಧೃತಿ",
+    "child_chandas": "ಕಂದರ್ಪಜಾತಂ",
+    "pattern": "ಮ|ತ|ನ|ಯ|ಯ|ಯಂ",
+    "yati": 5,
+    "chandombudi_source": 195
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 18,
+    "parent_chandas": "ಧೃತಿ",
+    "child_chandas": "ಅರವಿಂದಂ",
+    "pattern": "ನ|ನ|ಸ|ಸ|ತ|ಯಂ",
+    "yati": 9,
+    "chandombudi_source": 196
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 18,
+    "parent_chandas": "ಧೃತಿ",
+    "child_chandas": "ಹಂಸಕಂ",
+    "pattern": "ಸ|ನ|ಜ|ನ|ಭ|ಸಂ",
+    "yati": "",
+    "chandombudi_source": 197
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 19,
+    "parent_chandas": "ಅತಿಧೃತಿ",
+    "child_chandas": "ತರಳಂ",
+    "pattern": "ನ|ಭ|ರ|ಸ|ಜ|ಜ|ಗಂ",
+    "yati": 8,
+    "chandombudi_source": 198
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 19,
+    "parent_chandas": "ಅತಿಧೃತಿ",
+    "child_chandas": "ಮೇಘವಿಸ್ಫೂರ್ಜಿತಂ",
+    "pattern": "ಯ|ಮ|ನ|ಸ|ರ|ರ|ಗಂ",
+    "yati": 12,
+    "chandombudi_source": 199
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 19,
+    "parent_chandas": "ಅತಿಧೃತಿ",
+    "child_chandas": "ಶಾರ್ದೂಲವಿಕ್ರೀಡಿತಂ",
+    "pattern": "ಮ|ಸ|ಜ|ಸ|ತ|ತ|ಗಂ",
+    "yati": 12,
+    "chandombudi_source": 200
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 19,
+    "parent_chandas": "ಅತಿಧೃತಿ",
+    "child_chandas": "ಖಚರಪ್ಲುತಂ",
+    "pattern": "ರ|ಸ|ಸ|ತ|ಜ|ಜ|ಗಂ",
+    "yati": "ಪಕ್ಷ",
+    "chandombudi_source": 201
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 20,
+    "parent_chandas": "ಕೃತಿ",
+    "child_chandas": "ಮತ್ತೇಭವಿಕ್ರೀಡಿತಂ",
+    "pattern": "ಸ|ಭ|ರ|ನ|ಮ|ಯ|ಲಗಂ",
+    "yati": 10,
+    "chandombudi_source": 202
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 20,
+    "parent_chandas": "ಕೃತಿ",
+    "child_chandas": "ಉತ್ಪಲಮಾಲೆ",
+    "pattern": "ಭ|ರ|ನ|ಭ|ಭ|ರ|ಲಗಂ",
+    "yati": 11,
+    "chandombudi_source": 203
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 20,
+    "parent_chandas": "ಕೃತಿ",
+    "child_chandas": "ಅನವದ್ಯಂ",
+    "pattern": "ನ|ಭ|ಭ|ಮ|ಸ|ಸ|ಲಗಂ",
+    "yati": 11,
+    "chandombudi_source": 204
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 20,
+    "parent_chandas": "ಕೃತಿ",
+    "child_chandas": "ವನಮಂಜರಿ",
+    "pattern": "ಭ|ಭ|ಭ|ಭ|ರ|ಸ|ಲಗಂ",
+    "yati": 12,
+    "chandombudi_source": 205
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 21,
+    "parent_chandas": "ಪ್ರಕೃತಿ",
+    "child_chandas": "ಚಂಪಕಮಾಲೆ",
+    "pattern": "ನ|ಜ|ಭ|ಜ|ಜ|ಜ|ರ",
+    "yati": 13,
+    "chandombudi_source": 206
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 21,
+    "parent_chandas": "ಪ್ರಕೃತಿ",
+    "child_chandas": "ಸ್ರಗ್ಧರೆ",
+    "pattern": "ಮ|ರ|ಭ|ನ|ಯ|ಯ|ಯ",
+    "yati": 7,
+    "chandombudi_source": 207
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 21,
+    "parent_chandas": "ಪ್ರಕೃತಿ",
+    "child_chandas": "ತರಂಗಮಂ (ತುರಂಗಮಂ)",
+    "pattern": "ರ|ನ|ರ|ನ|ರ|ನ|ರಂ",
+    "yati": 9,
+    "chandombudi_source": 208
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 21,
+    "parent_chandas": "ಪ್ರಕೃತಿ",
+    "child_chandas": "ಲಲಿತಗತಿ",
+    "pattern": "ನ|ನ|ನ|ಯ|ಯ|ತ|ಮಂ",
+    "yati": 12,
+    "chandombudi_source": 209
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 22,
+    "parent_chandas": "ಆಕೃತಿ",
+    "child_chandas": "ಮಹಾಸ್ರಗ್ಧರೆ",
+    "pattern": "ಸ|ತ|ತ|ನ|ಸ|ರ|ರ|ಗಂ",
+    "yati": 15,
+    "chandombudi_source": 210
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 22,
+    "parent_chandas": "ಆಕೃತಿ",
+    "child_chandas": "ಭದ್ರಕಂ",
+    "pattern": "ಭ|ರ|ನ|ರ|ನ|ರ|ನ|ಗಂ",
+    "yati": 15,
+    "chandombudi_source": 211
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 22,
+    "parent_chandas": "ಆಕೃತಿ",
+    "child_chandas": "ವನಮಂಜರಿ",
+    "pattern": "ಭ|ಭ|ಭ|ಭ|ಭ|ಭ|ಭ|ಗಂ",
+    "yati": "7,8",
+    "chandombudi_source": 212
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 22,
+    "parent_chandas": "ಆಕೃತಿ",
+    "child_chandas": "ಚೂತಕುಜಂ",
+    "pattern": "ಸ|ಮ|ರ|ಸ|ಭ|ರ|ರ|ಗಂ",
+    "yati": 12,
+    "chandombudi_source": 213
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 23,
+    "parent_chandas": "ವಿಕೃತಿ",
+    "child_chandas": "ಹಂಸಕೃತಿ",
+    "pattern": "ನ|ಜ|ಜ|ಜ|ಜ|ಜ|ಜ|ಲಗಂ",
+    "yati": "8/11",
+    "chandombudi_source": 214
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 23,
+    "parent_chandas": "ವಿಕೃತಿ",
+    "child_chandas": "ಮತ್ತಾಕ್ರೀಡೆ",
+    "pattern": "ಮ|ಮ|ತ|ನ|ನ|ನ|ನ|ಲಗಂ",
+    "yati": 8,
+    "chandombudi_source": 215
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 23,
+    "parent_chandas": "ವಿಕೃತಿ",
+    "child_chandas": "ಸೌಂದರಂ",
+    "pattern": "ನ|ಭ|ಭ|ಭ|ಮ|ಸ|ಸ|ಲಗಂ",
+    "yati": 12,
+    "chandombudi_source": 216
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 24,
+    "parent_chandas": "ಸಂಕೃತಿ",
+    "child_chandas": "ಲಲಿತಂ",
+    "pattern": "ನ|ನ|ಭ|ನ|ಜ|ನ|ನ|ಯಂ",
+    "yati": 7,
+    "chandombudi_source": 217
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 24,
+    "parent_chandas": "ಸಂಕೃತಿ",
+    "child_chandas": "ತನ್ವಿ",
+    "pattern": "ಭ|ತ|ನ|ಸ|ಭ|ಭ|ನ|ಯಂ",
+    "yati": "5,7",
+    "chandombudi_source": 218
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 24,
+    "parent_chandas": "ಸಂಕೃತಿ",
+    "child_chandas": "ಅರ್ಕಮರೀಚಿ",
+    "pattern": "ನ|ಜ|ಭ|ಭ|ಭ|ಭ|ಜ|ರಂ",
+    "yati": 7,
+    "chandombudi_source": 219
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 24,
+    "parent_chandas": "ಸಂಕೃತಿ",
+    "child_chandas": "ಪಂಕಜಂ",
+    "pattern": "ನ|ಜ|ಭ|ಜ|ಜ|ಜ|ರ|ಸಂ",
+    "yati": 8,
+    "chandombudi_source": 220
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 25,
+    "parent_chandas": "ಅಭಿಕೃತಿ",
+    "child_chandas": "ಕ್ರೌಂಚಪದಂ",
+    "pattern": "ಭ|ಮ|ಸ|ಭ|ನ|ನ|ನ|ನ|ಗಂ",
+    "yati": "5,5,8",
+    "chandombudi_source": 221
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 25,
+    "parent_chandas": "ಅಭಿಕೃತಿ",
+    "child_chandas": "ಹಂಸಪದಂ",
+    "pattern": "ನ|ನ|ನ|ನ|ಸ|ತ|ತ|ತ|ಗಂ",
+    "yati": "8,7",
+    "chandombudi_source": 222
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 25,
+    "parent_chandas": "ಅಭಿಕೃತಿ",
+    "child_chandas": "ವಿದಳಿತವನರುಹಂ",
+    "pattern": "ನ|ನ|ನ|ನ|ನ|ನ|ನ|ನ|ಗಂ",
+    "yati": 12,
+    "chandombudi_source": 223
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 26,
+    "parent_chandas": "ಉತ್ಕೃತಿ",
+    "child_chandas": "ಭುಜಂಗವಿಜೃಂಭಿತಂ",
+    "pattern": "ಮ|ಮ|ತ|ನ|ನ|ನ|ನ|ರ|ಸ|ಲಗಂ",
+    "yati": "8,11",
+    "chandombudi_source": 224
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 26,
+    "parent_chandas": "ಉತ್ಕೃತಿ",
+    "child_chandas": "ಅಪವಾಹಂ",
+    "pattern": "ಮ|ನ|ನ|ನ|ನ|ನ|ನ|ಸ|ಗಗಂ",
+    "yati": "",
+    "chandombudi_source": 225
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 26,
+    "parent_chandas": "ಉತ್ಕೃತಿ",
+    "child_chandas": "ವನಲತೆ",
+    "pattern": "ನ|ನ|ನ|ನ|ನ|ನ|ನ|ನ|ಗಗಂ",
+    "yati": "8,8",
+    "chandombudi_source": 226
+  },
+  {
+    "type": "ಸಮವೃತ್ತ",
+    "characters": 26,
+    "parent_chandas": "ಉತ್ಕೃತಿ",
+    "child_chandas": "ಮುನಿಮತಂ (ಸರಳಂ)",
+    "pattern": "ನ|ಜ|ನ|ಸ|ನ|ನ|ನ|ಜ|ಲಗಂ",
+    "yati": 7,
+    "chandombudi_source": 227
+  },
+  {
+    "type": "ಇತರ ಸಮವೃತ್ತ",
+    "characters": 27,
+    "parent_chandas": "",
+    "child_chandas": "ದಂಡಕವೃತ್ತಂ",
+    "pattern": "ನ|ನ|ರ|ರ|ರ|ರ|ರ|ರಂ",
+    "yati": "",
+    "chandombudi_source": 231
+  },
+  {
+    "type": "ಇತರ ಸಮವೃತ್ತ",
+    "characters": 30,
+    "parent_chandas": "ಮಾಲಾವೃತ್ತ",
+    "child_chandas": "ಲಲಿತಪದಂ",
+    "pattern": "ಭ|ಜ|ಸ|ನ|ಭ|ಜ|ಸ|ನ|ಭ|ಯಂ",
+    "yati": 8,
+    "chandombudi_source": 233
+  },
+  {
+    "type": "ಇತರ ಸಮವೃತ್ತ",
+    "characters": 30,
+    "parent_chandas": "ಮಾಲಾವೃತ್ತ",
+    "child_chandas": "ಕುಸುಮಶರಂ",
+    "pattern": "ನ|ನ|ನ|ನ|ನ|ನ|ನ|ನ|ನ|ನಂ",
+    "yati": 10,
+    "chandombudi_source": 234
+  },
+  {
+    "type": "ಅರ್ಧಸಮವೃತ್ತ",
+    "characters": "11,10",
+    "parent_chandas": "",
+    "child_chandas": "ಅಚ್ಯುತಕ",
+    "pattern": "ನ|ಜ|ಜ|ಲಗಂ||\nಭ|ಭ|ಭ|ಗಂ||",
+    "yati": "",
+    "chandombudi_source": 236
+  },
+  {
+    "type": "ಅರ್ಧಸಮವೃತ್ತ",
+    "characters": "11,12",
+    "parent_chandas": "",
+    "child_chandas": "ದಿವಿಜಕಲ್ಪಲತೆ",
+    "pattern": "ರ|ನ|ರ|ಲಗಂ||\nನ|ಭ|ಜ|ರಂ||",
+    "yati": "",
+    "chandombudi_source": 237
+  },
+  {
+    "type": "ಅರ್ಧಸಮವೃತ್ತ",
+    "characters": "20,18",
+    "parent_chandas": "",
+    "child_chandas": "ರವಿಪ್ರಭೆ",
+    "pattern": "ನ|ಜ|ಜ|ಜ|ಜ|ಜ|ಲಗಂ||\nಭ|ಭ|ಭ|ಭ|ರ|ಸಂ||",
+    "yati": "",
+    "chandombudi_source": 238
+  },
+  {
+    "type": "ವಿಷಮವೃತ್ತ",
+    "characters": "",
+    "parent_chandas": "",
+    "child_chandas": "ಉದ್ಗತ",
+    "pattern": "ಸ|ಜ|ಸ|ಲಂ||\nನ|ಸ|ಜ|ಭರ||\nಭ|ನ|ಜ|ಲಗಂ||\nಸ|ಜ|ಸ|ಜ|ಗಂ||",
+    "yati": "",
+    "chandombudi_source": 241
+  },
+  {
+    "type": "ವಿಷಮವೃತ್ತ",
+    "characters": "10,10,12,10",
+    "parent_chandas": "",
+    "child_chandas": "ತ್ರಿಪದೋನ್ನತಿ",
+    "pattern": "ಭ|ಭ|ಭ|ಗಂ||\nಭ|ಭ|ಭ|ಗಂ||\nಭ|ಭ|ಭ|ಭಂ||\nಭ|ಭ|ಭ|ಗಂ||",
+    "yati": "",
+    "chandombudi_source": 247
+  }
+]
