@@ -29,12 +29,12 @@
             - Approximate matchig should also be possible
 4. Identifying ಅಂಶಗಣ is more tricker.
 
-    Input:  A set 'S' of *symbol* patterns of varying length, where each symbol can correspond to bit patterns of finite lenghts (to be precise, n and n+1. n depends on the symbol)
-    A bit pattern 'p'
-    Output: The patterns near to 'p' from 'S'
-    Example:
-        to-do
-    Notes: 
-            - Approximate matchig should also be possible
+        Input:  A set 'S' of *symbol* patterns of varying length, where each symbol can correspond to bit patterns of finite lenghts (to be precise, n and n+1. n depends on the symbol)
+        A bit pattern 'p'
+        Output: The patterns near to 'p' from 'S'
+        Example:
+            to-do
+        Notes: 
+                - Approximate matchig should also be possible
 5. In all problems, since the set of patterns 'S' is fixed, ML based (simple, engineered) approaches can also be explored
     
