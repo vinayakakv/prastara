@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akṣaragaṇa Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type="module">
+        import {AksharaGanaIdentifier} from './lib/aksharagana.js';
+
+        let identifier = new AksharaGanaIdentifier("data/aksharagana_data.json", false);
+        $(() => {
+            $('#show').click(
+                e => identifier.trie.visualize("#tree")
+            );
+        });
+    </script>
+</head>
+
+<body>
+<div class="jumbotron jumbotron-fluid bg-dark text-white">
+    <div class="container container-fluid">
+        <h2>Akṣaragaṇa Analysis</h2>
+        <p class="lead">We identify the <i>Akṣaragaṇa</i>s in a verse using the trie. This page provides the
+            visualization the trie
+        <hr class="my-4">
+        <div class="d-flex justify-content-center text-center">
+            <form class="form-inline">
+                <input type="button" id="show" class="btn btn-outline-light" value="Show Trie"/>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container container-fluid">
+    <div class="row">
+        <div class="col" id="tree" style="overflow: scroll">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
