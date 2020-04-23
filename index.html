@@ -32,15 +32,22 @@
                 let input_text = $('#source').val();
                 let analysis_type = $('#analysisType').val();
                 $("#output tr").remove();
-                let prastara_lines = input_text.split('\n').map(prastara);
+                let prastara_lines = input_text
+                    .split('\n')
+                    .map(prastara);
+                prastara_lines.forEach((prastara_obj, index, array) => {
+                        if (index + 1 < array.length && array[index + 1].tokens[0]['samyukta']) {
+                            array[index].prastara[array[index].prastara.length - 1] = '—';
+                        }
+                    });
                 prastara_lines.forEach(prastara_obj => {
                     let prastara_row = $("<tr>");
                     let akshara_row = $("<tr>");
                     prastara_obj.prastara.forEach(x => prastara_row.append(
                         $("<td>").html(`<code> ${x} </code>`)
                     ));
-                    prastara_obj.akshara.forEach(x => akshara_row.append(
-                        $("<td>").attr({"class": "table-active"}).html(`${x}`)
+                    prastara_obj.tokens.forEach(x => akshara_row.append(
+                        $("<td>").attr({"class": "table-active"}).html(`${x['akshara']}`)
                     ));
                     prastara_row.appendTo("#output");
                     akshara_row.appendTo("#output");
