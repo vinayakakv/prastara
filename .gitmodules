@@ -1,0 +1,3 @@
+[submodule "lib/akshara_tokenizer"]
+	path = lib/akshara_tokenizer
+	url = https://github.com/vinayakakv/akshara_tokenizer.git
