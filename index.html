@@ -17,9 +17,11 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
     <script type="module">
+        import {AksharaTokenizerKannada} from "./lib/akshara_tokenizer/akshara_tokenizer.js";
         import {prastara} from "./lib/prastara.js"
         import {AksharaGanaIdentifier} from './lib/aksharagana.js';
 
+        let aksharaTokenizerKannada = new AksharaTokenizerKannada(true);
         let aksharaGanaIdentifier = new AksharaGanaIdentifier("data/aksharagana_data.json");
         $(() => {
             $('#submit').click(e => {
@@ -32,14 +34,30 @@
                 let input_text = $('#source').val();
                 let analysis_type = $('#analysisType').val();
                 $("#output tr").remove();
-                let prastara_lines = input_text
-                    .split('\n')
-                    .map(prastara);
-                prastara_lines.forEach((prastara_obj, index, array) => {
-                        if (index + 1 < array.length && array[index + 1].tokens[0]['samyukta']) {
-                            array[index].prastara[array[index].prastara.length - 1] = '—';
-                        }
-                    });
+                let tokens = aksharaTokenizerKannada.tokenize(input_text);
+                let prastara_list =  prastara(tokens);
+                let prastara_index = 0;
+                let prastara_lines = [];
+                let prastara_obj = {
+                    prastara: [],
+                    tokens : []
+                };
+                for (let token of tokens) {
+                    if (!token['is_akshara'] && token['content'].includes('\n')) {
+                        prastara_lines.push(prastara_obj);
+                        prastara_obj = {
+                            prastara: [],
+                            tokens : []
+                        };
+                    }
+                    else if (token['is_akshara']) {
+                        prastara_obj.prastara.push(prastara_list[prastara_index]);
+                        prastara_obj.tokens.push(token);
+                    }
+                    prastara_index++;
+                }
+                if (prastara_obj.tokens)
+                    prastara_lines.push(prastara_obj);
                 prastara_lines.forEach(prastara_obj => {
                     let prastara_row = $("<tr>");
                     let akshara_row = $("<tr>");
@@ -64,7 +82,10 @@
                     case "trimurti_gana":
                         break;
                 }
-                let pattern = prastara_lines[0].prastara.map(x => x === 'U' ? 0 : 1).join('');
+                let pattern = prastara_list
+                    .filter(Boolean) 
+                    .map(x => x === 'U' ? 0 : 1)
+                    .join('');
                 let result = '';
                 try {
                     result = JSON.stringify(chandas_analyzer.identify(pattern));
