@@ -20,7 +20,7 @@
     <script type="module">
         import {AksharaGanaIdentifier} from './lib/aksharagana.js';
 
-        let identifier = new AksharaGanaIdentifier("data/aksharagana_data.json", false);
+        let identifier = new AksharaGanaIdentifier("data/aksharagana_data.json");
         $(() => {
             $('#show').click(
                 e => identifier.trie.visualize("#tree")
