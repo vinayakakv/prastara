@@ -82,14 +82,11 @@
                     case "trimurti_gana":
                         break;
                 }
-                let pattern = prastara_list
-                    .filter(Boolean) 
-                    .map(x => x === 'U' ? 0 : 1)
-                    .join('');
                 let result = '';
                 try {
-                    result = JSON.stringify(chandas_analyzer.identify(pattern));
-                } catch (TypeError) {
+                    result = JSON.stringify(chandas_analyzer.identify(prastara_list));
+                } catch (e) {
+                    console.error(e);
                     result = 'Still not implemented analysis for ' + analysis_type;
                 }
                 $('#analysis_result').html(result);
