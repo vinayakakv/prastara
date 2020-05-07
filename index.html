@@ -16,7 +16,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script type="module">
         import {AksharaTokenizerKannada} from "./lib/akshara_tokenizer/akshara_tokenizer.js";
         import {prastara} from "./lib/prastara.js"
@@ -36,21 +35,22 @@
                 let analysis_type = $('#analysisType').val();
                 $("#output tr").remove();
                 let tokens = aksharaTokenizerKannada.tokenize(input_text);
-                let prastara_list = prastara(tokens);
+                let prastara_list =  prastara(tokens);
                 let prastara_index = 0;
                 let prastara_lines = [];
                 let prastara_obj = {
                     prastara: [],
-                    tokens: []
+                    tokens : []
                 };
                 for (let token of tokens) {
                     if (!token['is_akshara'] && token['content'].includes('\n')) {
                         prastara_lines.push(prastara_obj);
                         prastara_obj = {
                             prastara: [],
-                            tokens: []
+                            tokens : []
                         };
-                    } else if (token['is_akshara']) {
+                    }
+                    else if (token['is_akshara']) {
                         prastara_obj.prastara.push(prastara_list[prastara_index]);
                         prastara_obj.tokens.push(token);
                     }
@@ -82,19 +82,17 @@
                     case "trimurti_gana":
                         break;
                 }
-                let result = {};
+                let pattern = prastara_list
+                    .filter(Boolean) 
+                    .map(x => x === 'U' ? 0 : 1)
+                    .join('');
+                let result = '';
                 try {
-                    result = chandas_analyzer.identify(prastara_list);
-                } catch (e) {
-                    console.log(e);
-                    result = {'gana_vinyasa': 'Still not implemented analysis for ' + analysis_type, 'chandas': null};
+                    result = JSON.stringify(chandas_analyzer.identify(pattern));
+                } catch (TypeError) {
+                    result = 'Still not implemented analysis for ' + analysis_type;
                 }
-                console.log(result);
-                $('#analysis_gana').html(result.gana_vinyasa.replace(/\n/g, "<br>"));
-                result.chandas.visualize('#analysis_chandas', d=>{
-                    console.log(d);
-                    return `${d.data?.data?.value?.name ?? ""}@${d.data?.data?.count + 1 ?? ""}`;
-                });
+                $('#analysis_result').html(result);
                 $('#submit').html(oldHtml);
             });
             $.getJSON("data/examples.json", data => {
@@ -218,18 +216,14 @@
 
             </div>
         </div>
-        <label>Result</label>
         <div class="form-row">
-            <div class="col-6">
 
-                <div class="" id="analysis_gana">
+            Result
+            <div class="col-">
 
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="" id="analysis_chandas" style="overflow: scroll">
+                <code class="" id="analysis_result">
 
-                </div>
+                </code>
             </div>
         </div>
     </form>
