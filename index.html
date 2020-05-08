@@ -35,22 +35,21 @@
                 let analysis_type = $('#analysisType').val();
                 $("#output tr").remove();
                 let tokens = aksharaTokenizerKannada.tokenize(input_text);
-                let prastara_list =  prastara(tokens);
+                let prastara_list = prastara(tokens);
                 let prastara_index = 0;
                 let prastara_lines = [];
                 let prastara_obj = {
                     prastara: [],
-                    tokens : []
+                    tokens: []
                 };
                 for (let token of tokens) {
                     if (!token['is_akshara'] && token['content'].includes('\n')) {
                         prastara_lines.push(prastara_obj);
                         prastara_obj = {
                             prastara: [],
-                            tokens : []
+                            tokens: []
                         };
-                    }
-                    else if (token['is_akshara']) {
+                    } else if (token['is_akshara']) {
                         prastara_obj.prastara.push(prastara_list[prastara_index]);
                         prastara_obj.tokens.push(token);
                     }
@@ -84,7 +83,7 @@
                 }
                 let result = '';
                 try {
-                    result = JSON.stringify(chandas_analyzer.identify(prastara_list));
+                    result = JSON.stringify(chandas_analyzer.identify(prastara_list, 3), null, 2);
                 } catch (e) {
                     console.error(e);
                     result = 'Still not implemented analysis for ' + analysis_type;
@@ -218,9 +217,9 @@
             Result
             <div class="col-">
 
-                <code class="" id="analysis_result">
+                <pre class="" id="analysis_result">
 
-                </code>
+                </pre>
             </div>
         </div>
     </form>
