@@ -1474,5 +1474,14 @@
     "pattern": "ಭ|ಭ|ಭ|ಗಂ||\nಭ|ಭ|ಭ|ಗಂ||\nಭ|ಭ|ಭ|ಭಂ||\nಭ|ಭ|ಭ|ಗಂ||",
     "yati": "",
     "chandombudi_source": 247
+  },
+  {
+    "type": "ವಿಷಮವೃತ್ತ",
+    "characters": "8,8,8,8",
+    "parent_chandas": "",
+    "child_chandas": "ಅನುಷ್ಟುಪ್ ಶ್ಲೋಕ",
+    "pattern": "...|.ಯ.||\n...|.ಜ.||",
+    "yati": "",
+    "chandombudi_source": 242
   }
 ]
