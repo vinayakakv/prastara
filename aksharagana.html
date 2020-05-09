@@ -16,14 +16,24 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v5.js"></script>
     <script type="module">
         import {AksharaGanaIdentifier} from './lib/aksharagana.js';
+        import {visualize_graph} from "./lib/visualize/graph.js";
 
-        let identifier = new AksharaGanaIdentifier("data/aksharagana_data.json", false);
+        let identifier_char = new AksharaGanaIdentifier("data/aksharagana_data.json", false);
+        let identifier_bit = new AksharaGanaIdentifier("data/aksharagana_data.json", true);
         $(() => {
             $('#show').click(
-                e => identifier.trie.visualize("#tree")
+                e => identifier_char.trie.visualize("#tree")
+            );
+            $('#show_graph').click(
+                e => visualize_graph(identifier_bit.get_graph(),
+                    "#tree",
+                    d => `${d.data["name"]}:${d.data["bit_pattern"]}`,
+                    d => d.weight,
+                    d => `${d.data["name"]}:${d.data["bit_pattern"]}`,
+                )
             );
         });
     </script>
@@ -39,6 +49,7 @@
         <div class="d-flex justify-content-center text-center">
             <form class="form-inline">
                 <input type="button" id="show" class="btn btn-outline-light" value="Show Trie"/>
+                <input type="button" id="show_graph" class="btn btn-outline-light" value="Show Graph"/>
             </form>
         </div>
     </div>
