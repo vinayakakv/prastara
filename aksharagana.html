@@ -24,17 +24,50 @@
         let identifier_char = new AksharaGanaIdentifier("data/aksharagana_data.json", false);
         let identifier_bit = new AksharaGanaIdentifier("data/aksharagana_data.json", true);
         $(() => {
-            $('#show').click(
-                e => identifier_char.trie.visualize("#tree")
+            $('#show_trie').click(
+                () => identifier_char.trie.visualize("#tree")
             );
             $('#show_graph').click(
-                e => visualize_graph(identifier_bit.get_graph(),
+                () => visualize_graph(identifier_bit.get_graph(),
                     "#tree",
                     d => `${d.data["name"]}:${d.data["bit_pattern"]}`,
                     d => d.weight,
                     d => `${d.data["name"]}:${d.data["bit_pattern"]}`,
                 )
             );
+            $("#show_data").click(
+                () => {
+                    let table = d3
+                        .select("#tree")
+                        .attr("overflow", "auto")
+                        .append("div")
+                        .attr("class", "table-responsive")
+                        .html("")
+                        .append("table")
+                        .attr("class", "table table-hover");
+
+                    table
+                        .append("thead")
+                        .attr("class", "thead-dark")
+                        .selectAll("th")
+                        .data(["", ...Object.keys(identifier_bit.trie.elements[0].data)])
+                        .enter()
+                        .append("th")
+                        .text(d => d);
+
+                    table
+                        .append("tbody")
+                        .selectAll("tr")
+                        .data(identifier_bit.trie.elements)
+                        .enter()
+                        .append("tr")
+                        .selectAll("td")
+                        .data((d, i) => [i + 1, ...Object.values(d.data)])
+                        .enter()
+                        .append("td")
+                        .text(d => d);
+                }
+            )
         });
     </script>
 </head>
@@ -48,8 +81,11 @@
         <hr class="my-4">
         <div class="d-flex justify-content-center text-center">
             <form class="form-inline">
-                <input type="button" id="show" class="btn btn-outline-light" value="Show Trie"/>
-                <input type="button" id="show_graph" class="btn btn-outline-light" value="Show Graph"/>
+                <div class="btn-group">
+                    <input type="button" id="show_data" class="btn btn-outline-light" value="Show Data"/>
+                    <input type="button" id="show_trie" class="btn btn-outline-light" value="Show Trie"/>
+                    <input type="button" id="show_graph" class="btn btn-outline-light" value="Show Graph"/>
+                </div>
             </form>
         </div>
     </div>
