@@ -39,10 +39,10 @@
                 () => {
                     let table = d3
                         .select("#tree")
-                        .attr("overflow", "auto")
+                        .style("overflow", "auto")
+                        .html("")
                         .append("div")
                         .attr("class", "table-responsive")
-                        .html("")
                         .append("table")
                         .attr("class", "table table-hover");
 
