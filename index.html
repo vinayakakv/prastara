@@ -20,9 +20,11 @@
         import {AksharaTokenizerKannada} from "./lib/akshara_tokenizer/akshara_tokenizer.js";
         import {prastara} from "./lib/prastara.js"
         import {AksharaGanaIdentifier} from './lib/aksharagana.js';
+        import {MatraGanaIdentifier} from "./lib/matragana.js";
 
         let aksharaTokenizerKannada = new AksharaTokenizerKannada(true);
         let aksharaGanaIdentifier = new AksharaGanaIdentifier("data/aksharagana_data.json");
+        let matraGanaIdentifier = new MatraGanaIdentifier("data/matragana_data.json");
         $(() => {
             $('#submit').click(e => {
                 let oldHtml = $('#submit').html();
@@ -74,9 +76,8 @@
                     case "akshara_gana":
                         chandas_analyzer = aksharaGanaIdentifier;
                         break;
-                    case "matra_chanda":
-                        break;
                     case "matra_gana":
+                        chandas_analyzer = matraGanaIdentifier;
                         break;
                     case "trimurti_gana":
                         break;
@@ -168,7 +169,6 @@
                     <select id="analysisType" class="form-control">
                         <option value="" disabled>Select analysis type</option>
                         <option value="akshara_gana" selected>Akṣara gaṇa</option>
-                        <option value="matra_chanda">Mātrā chaṃda</option>
                         <option value="matra_gana">Mātrā gaṇa</option>
                         <option value="trimurti_gana">Trimūrti gaṇa</option>
                     </select>
